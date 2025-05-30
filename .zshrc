@@ -69,7 +69,7 @@ done
 # yazi cd
 yazi_cd() {
     tmp="$(mktemp)"
-    yazi --cwd="$PWD" --chooser-file="$tmp"
+    yazi --cwd-file="$PWD" --chooser-file="$tmp"
     if [ -s "$tmp" ]; then
         dir=$(<"$tmp")
         rm -f "$tmp"
