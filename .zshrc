@@ -6,8 +6,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export JAVA_HOME="$HOME/.asdf/installs/java/openjdk-17"
 export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="$HOME/.asdf/shims:$PATH"
-
-
+export EDITOR="code"
 # starship
 if [ -f ~/.config/starship.toml ]; then
   eval "$(starship init zsh)"
@@ -67,17 +66,15 @@ done
 #}
 
 # yazi cd
-yazi_cd() {
-    tmp="$(mktemp)"
-    yazi --cwd-file="$PWD" --chooser-file="$tmp"
-    if [ -s "$tmp" ]; then
-        dir=$(<"$tmp")
+yazi() {
+    local tmp="$(mktemp)"
+    command yazi --cwd-file="$tmp" "$@"
+    if [[ -f "$tmp" ]]; then
+        cd "$(cat "$tmp")"
         rm -f "$tmp"
-        if [ -d "$dir" ]; then
-            cd "$dir"
-        fi
     fi
 }
+
 
 
 export TERM=xterm-256color
@@ -87,8 +84,8 @@ if command -v tmux &> /dev/null; then
 [ -z "$TMUX" ] && exec tmux
 fi
 
-
-bindkey -s '^o' 'lfcd\n'
+#lfcd keybind
+#bindkey -s '^o' 'lfcd\n'
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 #if [[ $- == *i* ]]; then
