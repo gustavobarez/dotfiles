@@ -56,15 +56,29 @@ for style in ${(k)ZSH_HIGHLIGHT_STYLES}; do
 done
 
 # Use lf to switch directories and bind it to ctrl-o
-lfcd () {
+#lfcd () {
+#    tmp="$(mktemp)"
+#    lf -last-dir-path="$tmp" "$@"
+#    if [ -f "$tmp" ]; then
+#        dir="$(cat "$tmp")"
+#        rm -f "$tmp"
+#        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+#    fi
+#}
+
+# yazi cd
+yazi_cd() {
     tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
+    yazi --cwd="$PWD" --chooser-file="$tmp"
+    if [ -s "$tmp" ]; then
+        dir=$(<"$tmp")
         rm -f "$tmp"
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+        if [ -d "$dir" ]; then
+            cd "$dir"
+        fi
     fi
 }
+
 
 export TERM=xterm-256color
 
