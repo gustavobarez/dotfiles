@@ -1,0 +1,52 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="JetBrains Mono" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.25" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CommitToolWindow.COMMIT_SPLITTER_PROPORTION": "0.65405405",
+    "FileTemplates.SelectedTemplate": "HTML File",
+    "INSPECTION_FILTER_HISTORY": "java support",
+    "InstalledPluginsSearchHistory": "language\nl\nedi\ne\npor",
+    "KEYMAP": "project",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
+    "MarketplacePluginsSearchHistory": "portuguese\nportuguesse\nlanguage\n/tag:\"Language Pack\"\njava",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "SettingsSearchHistory": "language\njava support\njava\nheight\nbar",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "docker.connection.created": "true",
+    "enter_selection_count": "3",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "251.25410.129",
+    "fileTypeChangedCounter": "4",
+    "fontSizeToResetConsole": "12.0",
+    "fontSizeToResetEditor": "12.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "installed.kotlin.plugin.version": "251.25410.129-IJ",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "",
+    "previousColorScheme": "_@user_High contrast",
+    "registry.to.advanced.settings.migration.build": "IC-251.25410.129",
+    "terminal.gen.one.option.visible": "false"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

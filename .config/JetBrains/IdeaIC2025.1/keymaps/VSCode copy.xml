@@ -1,0 +1,7 @@
+<keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="HideSideWindows" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+</keymap>

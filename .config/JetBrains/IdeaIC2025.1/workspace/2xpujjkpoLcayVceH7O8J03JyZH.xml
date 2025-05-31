@@ -1,0 +1,275 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Algorithms" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="2ufz4ui2hsb3c" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BinarySearchIterative.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="484">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"BinarySearchIterative.java","foregroundColor":-11538177,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"4ff0ff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-106,1,10,-109,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,98,97,114,101,122,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,100,101,97,73,67,50,48,50,53,46,49,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,49,46,48,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,106,97,118,97,46,115,118,103]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 9,
+      "lastUsed": 1748649181292
+    },
+    "IDEA_MODULE": {
+      "usageCount": 2,
+      "lastUsed": 1748649205182
+    }
+  }
+}]]></component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="6e158aa5:GitBranchType$LOCAL" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/barez/Development/Algorithms/BinarySearchIterative.java"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="9" lastUsage="1748649181292" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/barez/Development/Algorithms}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="Algorithms" />
+            <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data isLeaf="false" text="Algorithms" />
+              <item name="dir{file:///home/barez/Development/Algorithms}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/barez/Development/Algorithms/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/DataStructure" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="DataStructure" />
+                <item name="dir{file:///home/barez/Development/Algorithms/DataStructure}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Algorithms.iml" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="Algorithms.iml" />
+                <item name="Algorithms.iml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/BinarySearchIterative.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="BinarySearchIterative" />
+                <item name="BinarySearchIterative" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/FindPivotIndex.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="FindPivotIndex" />
+                <item name="FindPivotIndex" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/GroupAnagrams.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="GroupAnagrams" />
+                <item name="GroupAnagrams" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/RotateMatrix.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="RotateMatrix" />
+                <item name="RotateMatrix" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/ThreeSum.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="ThreeSum" />
+                <item name="ThreeSum" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/TrappingRainWater.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="TrappingRainWater" />
+                <item name="TrappingRainWater" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/TwoSum.java" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="TwoSum" />
+                <item name="TwoSum" type="1a9f42e2:ClassTreeNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info anchor="bottom" id="Services" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Problems View" order="2" side_tool="true" weight="0.2551458" />
+      <window_info anchor="bottom" id="Version Control" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" weight="0.32959402" />
+      <window_info anchor="right" id="Structure" order="8" weight="0.33006364" />
+      <window_info anchor="right" id="Commit" order="10" side_tool="true" weight="0.33006364" />
+      <window_info anchor="right" id="Pull Requests" order="12" side_tool="true" weight="0.33006364" />
+      <unified_weights bottom="0.2551458" left="0.36902174" right="0.32959402" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Problems View</value>
+      <value>Commit</value>
+      <value>Pull Requests</value>
+      <value>Structure</value>
+    </recentWindows>
+    <moreButton side="right" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="129" y="123" width="1146" height="730" key="SettingsEditor" timestamp="1748650397030">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="129" y="123" width="1146" height="730" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1748650397030" />
+    <state x="331" y="468" width="508" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1748647802968">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="331" y="468" width="508" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1748647802968" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FindPivotIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearchIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

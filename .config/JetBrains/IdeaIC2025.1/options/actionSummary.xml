@@ -1,0 +1,115 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="1" l="1748649199095" />
+    </e>
+    <e n="$SelectAll">
+      <i c="3" l="1748650244021" />
+    </e>
+    <e n="$Undo">
+      <i c="2" l="1748650406915" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="52" l="1748649973871" />
+    </e>
+    <e n="Annotate">
+      <i c="2" l="1748649805213" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="70" l="1748650548447" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="3" l="1748650546279" />
+    </e>
+    <e n="EditorDown">
+      <i c="6" l="1748650401546" />
+    </e>
+    <e n="EditorEscape">
+      <i c="3" l="1748649235831" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="1" l="1748649233425" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="2" l="1748649234234" />
+    </e>
+    <e n="EditorTab">
+      <i c="2" l="1748650402277" />
+    </e>
+    <e n="EditorUp">
+      <i c="9" l="1748649233003" />
+    </e>
+    <e n="HideSideWindows">
+      <i c="2" l="1748648036151" />
+    </e>
+    <e n="Images.SetBackgroundImage">
+      <i c="1" l="1748647800839" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1748648129787" />
+    </e>
+    <e n="NewClass">
+      <i c="1" l="1748649176968" />
+    </e>
+    <e n="SelectNextOccurrence">
+      <i c="6" l="1748649235108" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="3" l="1748648124440" />
+    </e>
+    <e n="ShowSettings">
+      <i c="11" l="1748650111054" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="3" l="1748649240432" />
+    </e>
+    <e n="Tree-selectParent">
+      <i c="1" l="1748649239499" />
+    </e>
+    <e n="ViewStatusBar">
+      <i c="1" l="1748649276783" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.SelectionBasedPluginModelAction$UninstallAction">
+      <i c="1" l="1748649123852" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="2" l="1748650233263" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.ExpChooserAction">
+      <i c="1" l="1748647438512" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="3" l="1748649217089" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="5" l="1748649222341" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="1" l="1748648158728" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$FindByShortcutAction">
+      <i c="1" l="1748648136572" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
+      <i c="1" l="1748648142722" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1748648299576" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.HideAction">
+      <i c="1" l="1748648064291" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="19" l="1748649369248" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="21" l="1748650104487" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="2" l="1748649345269" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="5" l="1748649406986" />
+    </e>
+  </component>
+</application>
