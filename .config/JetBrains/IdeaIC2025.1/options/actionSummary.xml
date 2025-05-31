@@ -7,7 +7,7 @@
       <i c="3" l="1748650244021" />
     </e>
     <e n="$Undo">
-      <i c="2" l="1748650406915" />
+      <i c="12" l="1748651818902" />
     </e>
     <e n="ActivateProjectToolWindow">
       <i c="56" l="1748650829070" />
@@ -16,10 +16,13 @@
       <i c="2" l="1748649805213" />
     </e>
     <e n="EditorBackSpace">
-      <i c="70" l="1748650548447" />
+      <i c="75" l="1748651901837" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="3" l="1748650546279" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1748651812879" />
     </e>
     <e n="EditorDown">
       <i c="6" l="1748650401546" />
@@ -30,8 +33,11 @@
     <e n="EditorNextWord">
       <i c="1" l="1748649233425" />
     </e>
+    <e n="EditorPaste">
+      <i c="20" l="1748651814901" />
+    </e>
     <e n="EditorPreviousWordWithSelection">
-      <i c="2" l="1748649234234" />
+      <i c="3" l="1748651812155" />
     </e>
     <e n="EditorTab">
       <i c="2" l="1748650402277" />
@@ -58,7 +64,10 @@
       <i c="3" l="1748648124440" />
     </e>
     <e n="ShowSettings">
-      <i c="11" l="1748650111054" />
+      <i c="13" l="1748651860717" />
+    </e>
+    <e n="ToggleBookmarkWithMnemonic">
+      <i c="1" l="1748651049028" />
     </e>
     <e n="Tree-selectNext">
       <i c="3" l="1748649240432" />
@@ -103,7 +112,7 @@
       <i c="19" l="1748649369248" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="21" l="1748650104487" />
+      <i c="24" l="1748651849019" />
     </e>
     <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
       <i c="2" l="1748649345269" />
