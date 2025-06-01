@@ -10,7 +10,7 @@
       <i c="12" l="1748651818902" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="56" l="1748650829070" />
+      <i c="58" l="1748652871408" />
     </e>
     <e n="Annotate">
       <i c="2" l="1748649805213" />
@@ -57,11 +57,14 @@
     <e n="NewClass">
       <i c="1" l="1748649176968" />
     </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1748652894433" />
+    </e>
     <e n="SelectNextOccurrence">
       <i c="6" l="1748649235108" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="3" l="1748648124440" />
+      <i c="4" l="1748652874584" />
     </e>
     <e n="ShowSettings">
       <i c="13" l="1748651860717" />
@@ -91,7 +94,7 @@
       <i c="3" l="1748649217089" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="5" l="1748649222341" />
+      <i c="6" l="1748652871976" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="1" l="1748648158728" />
@@ -101,6 +104,9 @@
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
       <i c="1" l="1748648142722" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1748652895604" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
       <i c="1" l="1748648299576" />
@@ -112,7 +118,7 @@
       <i c="19" l="1748649369248" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="24" l="1748651849019" />
+      <i c="26" l="1748652897831" />
     </e>
     <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
       <i c="2" l="1748649345269" />

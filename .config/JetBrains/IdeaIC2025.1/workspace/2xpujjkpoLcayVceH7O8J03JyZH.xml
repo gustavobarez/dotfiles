@@ -7,24 +7,13 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="1s5qploia0uhc" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearchIterative.java">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="286">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"BinarySearchIterative.java","foregroundColor":-11538177,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"4ff0ff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-106,1,10,-109,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,98,97,114,101,122,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,100,101,97,73,67,50,48,50,53,46,49,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,49,46,48,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,106,97,118,97,46,115,118,103]}]]></tab>
-      </file>
-    </leaf>
+    <leaf ideFingerprint="1s5qploia0uhc" SIDE_TABS_SIZE_LIMIT_KEY="-1" />
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 12,
-      "lastUsed": 1748651803774
+      "usageCount": 13,
+      "lastUsed": 1748652864174
     },
     "IDEA_MODULE": {
       "usageCount": 2,
@@ -41,6 +30,7 @@
     </expand>
     <select />
   </component>
+  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
   <component name="IdeDocumentHistory">{
   &quot;changedPaths&quot;: [
     &quot;/home/barez/Development/Algorithms/BinarySearchIterative.java&quot;
@@ -55,7 +45,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="12" lastUsage="1748651803776" />
+      <summary usageCount="13" lastUsage="1748652864177" />
     </language>
   </component>
   <component name="ProjectView">
@@ -226,6 +216,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="331" y="468" width="508" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1748647802968" />
+    <state x="1097" y="256" width="785" height="698" key="search.everywhere.popup" timestamp="1748652895606">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1097" y="256" width="785" height="698" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1748652895606" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Teste.java" />
