@@ -3,9 +3,8 @@
 #zsh autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 #config java home
-export JAVA_HOME="$HOME/.asdf/installs/java/openjdk-17"
-export PATH="$JAVA_HOME/bin:$PATH"
-export PATH="$HOME/.asdf/shims:$PATH"
+. ~/.asdf/plugins/java/set-java-home.zsh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 export EDITOR="code"
 # starship
 if [ -f ~/.config/starship.toml ]; then
@@ -80,9 +79,9 @@ yazi() {
 export TERM=xterm-256color
 
 # Inicia o tmux automaticamente se não estiver dentro de uma sessão
-if command -v tmux &> /dev/null; then
-[ -z "$TMUX" ] && exec tmux
-fi
+#if command -v tmux &> /dev/null; then
+#[ -z "$TMUX" ] && exec tmux
+#fi
 
 #lfcd keybind
 #bindkey -s '^o' 'lfcd\n'
