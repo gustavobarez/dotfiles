@@ -5,6 +5,9 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 #config java home
 . ~/.asdf/plugins/java/set-java-home.zsh
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+export PATH="$PATH:$(go env GOPATH)/bin"
+export PATH="$PATH:$(go env GOROOT)/packages/bin"
+export PATH="$HOME/.asdf/installs/golang/1.25.0/bin:$PATH"
 export EDITOR="code"
 # starship
 if [ -f ~/.config/starship.toml ]; then
