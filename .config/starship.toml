@@ -92,3 +92,14 @@ symbol = " "
 
 [aws]
 symbol = "  "
+
+[java]
+symbol = " "
+
+[docker_context]
+symbol = " "
+style = "bg:#06969A"
+format = '[ $symbol $context ]($style)'
+
+[elixir]
+symbol = " "

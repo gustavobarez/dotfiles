@@ -77,8 +77,6 @@ yazi() {
     fi
 }
 
-
-
 export TERM=xterm-256color
 
 # Inicia o tmux automaticamente se não estiver dentro de uma sessão
