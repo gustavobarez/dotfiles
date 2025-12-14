@@ -1,121 +1,172 @@
 {
-  "workbench.iconTheme": "flow-dim", // tema escuro
-  // "workbench.colorTheme": "Tokyo Night Storm", // tema escuro
-  // "workbench.colorTheme": "Tokyo Night Light", // tema claro
-  // "workbench.iconTheme": "catppuccin-latte", // tela claro
-  "files.autoSave": "afterDelay",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "emmet.variables": {
-    "lang": "pt-BR"
-  },
-  "explorer.confirmDragAndDrop": false,
-  "editor.largeFileOptimizations": false,
-  "explorer.confirmDelete": false,
-  "editor.minimap.enabled": false,
+  // =========================
+  // WORKBENCH / UI
+  // =========================
+  "workbench.iconTheme": "flow-dim",
+  "workbench.colorTheme": "Shades of Purple",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.confirmSaveUntitledWorkspace": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+  // =========================
+  // FILES / EXPLORER
+  // =========================
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": true,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, bun.lockb, nest*",
+    "*.component.ts": "${capture}.component.html, ${capture}.component.css, ${capture}.component.scss, ${capture}.component.spec.ts",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env": ".env*",
+    ".env.local": ".env*"
   },
-  "terminal.integrated.env.windows": {},
+
+  // =========================
+  // EDITOR – GENERAL
+  // =========================
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
-  "workbench.editor.labelFormat": "short",
-  "explorer.compactFolders": true,
+  "editor.minimap.enabled": false,
+  "editor.largeFileOptimizations": false,
   "editor.semanticHighlighting.enabled": false,
-  "apc.font.family": "JetBrains Mono",
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    // ".pane-body": "padding: 8px",
-    // ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;"
-  },
-  "explorer.fileNesting.enabled": true,
-  "explorer.sortOrder": "foldersNestsFiles",
-  "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, bun.lockb, nest*", // js
-    "*.component.ts": "${capture}.component.html, ${capture}.component.css, ${capture}.component.scss, ${capture}.component.spec.ts", // angular
-    "tailwind.config.js": "tailwind.config*, postcss.config*", // tailwind
-    ".env.local": ".env*",
-    ".env": ".env*"
-  },
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "workbench.activityBar.location": "hidden",
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "liveServer.settings.donotVerifyTags": true,
-  "git.enableSmartCommit": true,
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "workbench.colorCustomizations": {
-    "terminal.foreground": "#FFFFFF"
-  },
-  "workbench.startupEditor": "none",
-  "java.debug.logLevel": "verbose",
-  "java.debug.settings.hotCodeReplace": "auto", // barra direita
-  "workbench.statusBar.visible": false, // barra inferior
-  "editor.inlineSuggest.enabled": false, // copilot suggestions
-  "redhat.telemetry.enabled": true,
-  "workbench.editor.empty.hint": "hidden",
-  "docker.extension.enableComposeLanguageServer": false,
-  "workbench.sideBar.location": "right",
-  "git.autofetch": true,
-  "window.confirmSaveUntitledWorkspace": false,
-  "vs-kubernetes": {
-    "vscode-kubernetes.kubectl-path-linux": "/home/barez/.local/state/vs-kubernetes/tools/kubectl/kubectl",
-    "vscode-kubernetes.minikube-path-linux": "/home/barez/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
-  },
+  "editor.lineNumbers": "relative",
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlayHints.enabled": "on",
+  "editor.parameterHints.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "githubPullRequests.createOnPublishBranch": "never",
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "diffEditor.codeLens": true,
-  // "typescript.suggest.autoImports": true,
-  // "javascript.suggest.autoImports": true,
-  // "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"
   },
-  // "typescript.enablePromptUseWorkspaceTsdk": true,
-  // "typescript.tsdk": "node_modules/typescript/lib",
-  "chat.tools.autoApprove": true,
-  "chat.agent.maxRequests": 100,
-  "[sql]": {
-    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+
+  // =========================
+  // LANGUAGE FORMATTERS
+  // =========================
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "database-client.autoSync": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "go.toolsManagement.autoUpdate": true,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "glassit.alpha": 220,
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "editor.lineNumbers": "relative", // neo vim style
-  "editor.inlayHints.enabled": "on",
-  // INIT GO HINTS
+
+  // =========================
+  // GO (GOLANG)
+  // =========================
+  "go.toolsManagement.autoUpdate": true,
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
   "go.inlayHints.constantValues": true,
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
+  "go.inlayHints.ignoredError": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "workbench.colorTheme": "Shades of Purple",
+
+  // =========================
+  // TERMINAL
+  // =========================
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.env.windows": {},
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#FFFFFF"
+  },
+
+  // =========================
+  // GIT / GITHUB
+  // =========================
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "githubPullRequests.createOnPublishBranch": "never",
+
+  // =========================
+  // COPILOT / AI
+  // =========================
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.agent.maxRequests": 100,
+
+  // =========================
+  // JAVA
+  // =========================
+  "java.debug.logLevel": "verbose",
+  "java.debug.settings.hotCodeReplace": "auto",
+
+  // =========================
+  // LIVE SERVER
+  // =========================
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // =========================
+  // DATABASE / DOCKER / K8S
+  // =========================
+  "database-client.autoSync": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path-linux": "/home/barez/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-linux": "/home/barez/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+
+  // =========================
+  // APC (CUSTOM UI)
+  // =========================
+  "apc.font.family": "JetBrains Mono",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".monaco-list-row": "border-radius: 4px;"
+  },
+
+  // =========================
+  // EMMET
+  // =========================
+  "emmet.variables": {
+    "lang": "pt-BR"
+  },
+
+  // =========================
+  // DISCORD
+  // =========================
   "discord.enabled": false,
   "discord.lowerDetailsEditing": "ㅤ ㅤ",
   "discord.removeLowerDetails": true,
-  "discord.removeDetails": true
-  // END GO HINTS
+  "discord.removeDetails": true,
+
+  // =========================
+  // MISC
+  // =========================
+  "redhat.telemetry.enabled": true,
+  "glassit.alpha": 220,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "diffEditor.codeLens": true
 }
